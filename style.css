@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f6ae5c;
+}
+
+h1 {
+    font-family: 'Bubblegum Sans', cursive;
+    color: #fbf7ed;
+    text-align: center;
+}
+
+.main {
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 700px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.userInput {
+    text-align: center;
+    padding: 5px;
+}
