@@ -30,7 +30,7 @@ h1 {
     margin: 0 auto;
 } */
 
-.userInput {
+form {
     text-align: center;
     padding: 5px;
 }
@@ -41,8 +41,5 @@ dt {
 }
 
 dd {
-    color: white;
-    word-wrap: inherit;
-    width: 30%;
-
+    color: black;
 }
