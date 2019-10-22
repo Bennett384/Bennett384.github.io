@@ -3,7 +3,13 @@ console.log($);
 $(()=>{
 
 	$('form').on('submit', (event) =>{
-		event.preventDefault();
+
+		 event.preventDefault();
+
+
+
+
+
 
 		const userInput = $('input[type="text"]').val();
 
@@ -28,6 +34,7 @@ $(()=>{
             console.log('bad');
         }
     );
+    $(event.currentTarget).trigger('reset');
 
    });
 })
