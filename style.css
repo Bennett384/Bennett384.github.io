@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+.hero-image {
+    background-image: url('https://img.grouponcdn.com/deal/tyTrkYSCG1Dxa8fTeYvy/6m-440x267/v1/c700x420.jpg');
+    background-color: #f6ae5c;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 body {
     background: #f6ae5c;
 }
@@ -12,13 +21,13 @@ h1 {
     text-align: center;
 }
 
-.main {
+/* .main {
     border: 2px solid white;
     border-radius: 20px;
     height: 700px;
     width: 90%;
     margin: 0 auto;
-}
+} */
 
 .userInput {
     text-align: center;
