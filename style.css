@@ -3,7 +3,7 @@
 }
 
 .hero-image {
-    background-image: url('https://img.grouponcdn.com/deal/tyTrkYSCG1Dxa8fTeYvy/6m-440x267/v1/c700x420.jpg');
+    background-image: url('https://ksassets.timeincuk.net/wp/uploads/sites/55/2018/08/rickandmorty-920x584.jpg');
     background-color: #f6ae5c;
     height: 500px;
     background-position: center;
@@ -12,12 +12,13 @@
 }
 
 body {
-    background: #f6ae5c;
+    background: #e3ff00;
+    width: 90%;
 }
 
 h1 {
     font-family: 'Bubblegum Sans', cursive;
-    color: #fbf7ed;
+    color: red;
     text-align: center;
 }
 
@@ -32,4 +33,16 @@ h1 {
 .userInput {
     text-align: center;
     padding: 5px;
+}
+
+
+dt {
+    color: red;
+}
+
+dd {
+    color: white;
+    word-wrap: inherit;
+    width: 30%;
+
 }
