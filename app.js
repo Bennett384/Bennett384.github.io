@@ -1,17 +1,16 @@
 console.log($);
 
+
+
 $(()=>{
+
 
 	$('form').on('submit', (event) =>{
 
 		 event.preventDefault();
 
-
-
-
-
-
 		const userInput = $('input[type="text"]').val();
+
 
  
 
@@ -33,8 +32,36 @@ $(()=>{
         (error) => {
             console.log('bad');
         }
+
+
+
     );
     $(event.currentTarget).trigger('reset');
 
+    	const modal = document.getElementById('modal');
+
+		const modalBtn = document.getElementById('modalBtn')
+
+		const closeBtn = document.getElementById('closeBtn')
+
+		modalBtn.addEventListener('click', openModal);
+
+		const openModal = () => {
+			console.log(123);
+			// modal.style.display ='block';
+		}
+
+
+
    });
+
+
+
+
+
+
+
 })
+
+
+ 
