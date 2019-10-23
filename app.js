@@ -38,18 +38,18 @@ $(()=>{
     );
     $(event.currentTarget).trigger('reset');
 
-    	const modal = document.getElementById('modal');
+  //   	const modal = document.getElementById('modal');
 
-		const modalBtn = document.getElementById('modalBtn')
+		// const modalBtn = document.getElementById('modalBtn')
 
-		const closeBtn = document.getElementById('closeBtn')
+		// const closeBtn = document.getElementById('closeBtn')
 
-		modalBtn.addEventListener('click', openModal);
+		// modalBtn.addEventListener('click', openModal);
 
-		const openModal = () => {
-			console.log(123);
+		// const openModal = () => {
+		// 	console.log(123);
 			// modal.style.display ='block';
-		}
+		// }
 
 
 
