@@ -22,13 +22,13 @@ h1 {
     text-align: center;
 }
 
-/* .main {
+.main {
     border: 2px solid white;
     border-radius: 20px;
     height: 700px;
     width: 90%;
     margin: 0 auto;
-} */
+}
 
 form {
     text-align: center;
@@ -86,10 +86,3 @@ dd {
     text-decoration: none;
     cursor: pointer;
 }
-
-
-
-
-
-
-
