@@ -1,7 +1,5 @@
 console.log($);
 
-
-
 $(()=>{
 
 
@@ -10,8 +8,6 @@ $(()=>{
 		 event.preventDefault();
 
 		const userInput = $('input[type="text"]').val();
-
-
 
 
      $.ajax({
@@ -31,40 +27,27 @@ $(()=>{
         },
         (error) => {
             console.log('bad');
-        }
+        })
 
 
 
-    );
+
+
+
     $(event.currentTarget).trigger('reset');
-		// 	//getting modal div
-    	// const modal = document.getElementsByClassName('modal');
-		// 	//getting the open modal button
-		// const modalBtn = document.getElementsByClassName('modalBtn')
-		// 	//getting the close modal button
-		// const closeBtn = document.getElementsByClassName('closeBtn')[0];
-		// 	//adding event listener onto the open modal button
-		// modalBtn.addEventListener('click', openModal);
-		// 	//adding event listener onto the close modal button
-		// closeBtn.addEventListener('click', closeModal);
-		// 	//creating open modal function
-		// const openModal = () => {
-		// 	console.log(123);
-		// 	modal.style.display ='block';
-		// }
-		// 	//creating close modal function
-		// const closeModal = () =>{
-		// 	modal.style.display ='none';
-		// }
+
 
 
 
    });
 
+	document.getElementById('modalBtn').addEventListener('click', function(){
+		document.querySelector('.modal-content').style.display = 'block';
+	})
 
-
-
-
+	document.querySelector('.closeBtn').addEventListener('click', function(){
+		document.querySelector('.modal-content').style.display = 'none';
+	})
 
 
 })
